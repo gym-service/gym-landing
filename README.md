@@ -1,0 +1,1 @@
+# another single page template
