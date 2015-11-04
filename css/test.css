@@ -21,7 +21,7 @@ body #body-container {
     height: 100%;
 }
 .page {
-    background-color: #fff;
+    background-color: rgba(0,0,0,0);
     overflow: hidden;
     padding-top: 50px;
 }
