@@ -22,16 +22,43 @@ $(window).scroll(function() {
 new WOW().init();
 
 $(document).ready(function(){
-  $(".owl-carousel").owlCarousel({
+  $("#owl-carousel").owlCarousel({
     items:1,
     loop:true,
     margin:10,
-    autoplay:false,
-    autoplayTimeout:10000,
-    autoplayHoverPause:true
+    autoplay:true,
+    autoplayTimeout:8000,
+    autoplayHoverPause:true,
+    dots:true,
+    ditsEach:true,
+    animateOut: 'slideOutDown',
+    animateIn: 'flipInX',
+    smartSpeed:450
 });
 
+
+
 });
+
+$(document).ready(function(){
+  $("#tech").owlCarousel({
+    items:2,
+    stagePadding: 50,
+    margin:10,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    smartSpeed:450
+
+});
+
+
+});
+
+
+
 
 
 /////////////////////////////////////////////////////////////////////
